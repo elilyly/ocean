@@ -52,7 +52,6 @@ const DragDrop= () => {
         <Misc onStart={onStart} />
         <Trash onStart={onStart} />
         <PdfIcon onStart={onStart} />
-
       </div>
     );
 

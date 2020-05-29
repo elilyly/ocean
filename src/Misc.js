@@ -11,9 +11,8 @@ const Misc = (props) => {
 
   return (
 
-    <NavLink className="nav-menu__link" to="/misc">
-      <div className="folderimg2"
-          onMouseDown={onStart}>
+    <NavLink className="nav-menu__link" to="/misc" onMouseDown={onStart}>
+      <div className="folderimg2">
             <img src={fol} />
             {props.children}
             <figcaption>Misc.</figcaption>

@@ -601,7 +601,7 @@ figcaption {
   }
   .zoomAbout {
     transition: transform 0.25s ease;
-    z-index: 421;
+    z-index: 400;
     right: 0px;
     top: 0px;
     position: unset;
@@ -637,7 +637,7 @@ figcaption {
   }
 
   .modal-about img{
-
+    padding-top: 70px;
     width: 90%;
 
   }
