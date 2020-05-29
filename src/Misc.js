@@ -18,7 +18,7 @@ const Misc = (props) => {
             {props.children}
             <figcaption>Misc.</figcaption>
       </div>
-      </NavLink>
+    </NavLink>
 
   );
 }

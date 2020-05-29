@@ -1,6 +1,4 @@
 import React from 'react';
-import flowerImg from  './Images/flowerImg.jpg';
-import me2 from  './Images/me2.JPG';
 import doggy from  './Images/doggy.jpg';
 import email from  './Images/email.png';
 import github from  './Images/github.png';

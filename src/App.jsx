@@ -21,53 +21,43 @@ import img11 from  './Images/img11.JPG';
 import img12 from  './Images/img12.PNG';
 import img13 from  './Images/img13.PNG';
 import tree from  './Images/tree.jpg';
-
 import gifGrass from  './Images/gifGrass.GIF';
 
 const App = () => {
-
   const carouselImg = [
     {
       src: `${img1}`
-    },
-    {
-    src: `${img2}`
-  },
-  {
-  src: `${img3}`
-},  {
-  src: `${img4}`
-},  {
-  src: `${img5}`
-},  {
-  src: `${img5}`
-},  {
-  src: `${img6}`
-},  {
-  src: `${img7}`
-},  {
-  src: `${img8}`
-},  {
-  src: `${img9}`
-},  {
-  src: `${img10}`
-},
-{
- src: `${img11}`
-},
-{
- src: `${img12}`
-},
-{
- src: `${img13}`
-},{
- src: `${tree}`
-},{
- src: `${gifGrass}`
-},
-  ]
-
-
+    },{
+      src: `${img2}`
+    },{
+      src: `${img3}`
+    },{
+        src: `${img4}`
+    },{
+      src: `${img5}`
+    },{
+      src: `${img5}`
+    },{
+      src: `${img6}`
+    },{
+      src: `${img7}`
+    },{
+      src: `${img8}`
+    },{
+      src: `${img9}`
+    },{
+      src: `${img10}`
+    },{
+      src: `${img11}`
+    },{
+      src: `${img12}`
+    },{
+      src: `${img13}`
+    },{
+      src: `${tree}`
+    },{
+      src: `${gifGrass}`
+    }]
 
   return (
     <BrowserRouter>

@@ -1,6 +1,5 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import apple from  './Images/apple.png';
 import apple2 from  './Images/apple2.png';
 
 const Navbar = (props) => (

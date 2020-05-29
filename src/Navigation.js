@@ -1,6 +1,4 @@
 import React from 'react';
-import roseleft from  './Images/rose-icon-left.png';
-import roseright from  './Images/rose-icon-right.png';
 import leftArrow from  './Images/leftArrow.png';
 import rightArrow from  './Images/rightArrow.png';
 

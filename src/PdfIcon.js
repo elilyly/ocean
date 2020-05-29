@@ -9,13 +9,11 @@ const PdfIcon = (props) => {
 
   return (
     <NavLink className="nav-menu__link" to="/resume">
-    <div className="pdf-container" onMouseDown={props.onStart}>
-
+      <div className="pdf-container" onMouseDown={props.onStart}>
         <img alt="pdf" src={pdfIcon} className="pdfIcon"  />
-
-      {props.children}
-    </div>
-      </NavLink>
+        {props.children}
+      </div>
+    </NavLink>
   );
 }
 
