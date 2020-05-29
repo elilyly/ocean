@@ -1,11 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Chicle', cursive;
+  background-image: url("./Images/beaches.gif");
+  width: 100%;
+  height: 100vh;
+  background-color: #d5cdbe;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
