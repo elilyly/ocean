@@ -1,10 +1,10 @@
 import React from 'react';
-import myResume from  './Images/myResume.pdf';
+import resume from  './Images/resume.pdf';
 
 const Resume = () => {
   return (
     <div>
-      <embed src={myResume} type="application/pdf" width="100%" height="750px" />
+      <embed src={resume} type="application/pdf" width="100%" height="750px" />
     </div>
   );
 }
