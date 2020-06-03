@@ -4,7 +4,6 @@ import DragDrop from './DragDrop';
 
 import useZoom from './useZoom';
 
-
 const Home = () => {
   const { isZoomed, toggleZoom } = useZoom();
   return (

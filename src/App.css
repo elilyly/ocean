@@ -356,6 +356,7 @@ figcaption {
   top: 40px;
   right: 140px;
   width: 140px;
+  cursor: pointer;
 }
 
 
@@ -368,6 +369,7 @@ figcaption {
   right: 40px;
   position: absolute;
   width: 90px;
+  cursor: pointer;
 }
 .folderimg2 {
   width: 100px;
@@ -390,6 +392,8 @@ figcaption {
   z-index: 350;
   top: 170px;
   left: 40px;
+  cursor: pointer;
+
 }
 /* .folderimg img {
   width: 100%;
@@ -407,11 +411,11 @@ figcaption {
 .zoomAbout  {
   transition: transform 0.25s ease;
   z-index: 501;
-  right: 170px;
-  top: 350px;
+  left: 0px;
+  top: 400px;
   width: 200px;
   position: absolute;
-
+  cursor: pointer;
 
 }
 /* .zoomAbout img {

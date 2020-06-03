@@ -11,7 +11,6 @@ const Skills = (props) => {
   const { isShowing, toggle } = useModal();
 
   return (
-
       <div className="folderimg"
           onMouseDown={onStart}
           onClick={toggle}>

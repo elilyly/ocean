@@ -2,7 +2,7 @@ import React from 'react';
 import fol from  './Images/fol.png';
 import useModal from './useModal';
 import { useState } from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Misc = (props) => {
   const {
@@ -10,7 +10,6 @@ const Misc = (props) => {
   } = props;
 
   return (
-
     <NavLink className="nav-menu__link" to="/misc" onMouseDown={onStart}>
       <div className="folderimg2">
             <img src={fol} />
@@ -18,7 +17,6 @@ const Misc = (props) => {
             <figcaption>Misc.</figcaption>
       </div>
     </NavLink>
-
   );
 }
 

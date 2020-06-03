@@ -5,7 +5,7 @@ import Misc from './Misc';
 import Trash from './Trash';
 import PdfIcon from './PdfIcon';
 
-import React, { useState} from "react";
+import React, { useState } from "react";
 
 const DragDrop= () => {
   const [state, setState] = useState({
@@ -13,8 +13,6 @@ const DragDrop= () => {
     distX: 0,
     distY: 0
   });
-
-
 
 
   const onStart = (e) => {
